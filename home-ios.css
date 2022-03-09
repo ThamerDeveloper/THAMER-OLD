@@ -1,3 +1,6 @@
+
+@media screen and (max-width:414px){
+
 *{
     padding: 0;
     margin: 0;
@@ -36,258 +39,230 @@ html {
 }
 /**/
 body{
-    height: 4215px;
+    height: 3522px;
     background: #191919 0% 0% no-repeat padding-box;
     display:block;
 }
-/*taskbar*/
 
+/*taskbar*/
 .thamer{
     position: absolute;
-    top: 35px;
-    left: 60px;
-    width: 173px;
-    height: 33px;
+    top: 20px;
+    left: 138px;
+    width: 138px;
+    height: 27px;
     text-align: left;
-    transition: all 0.3s ease 0s;
-    font: normal normal normal 25px/33px Segoe UI;
-    letter-spacing: 12.5px;
+    font: normal normal normal 20px/27px Segoe UI;
+    letter-spacing: 10px;
     color: #FFFFFF;
     opacity: 1;
 }
-.thamer:hover{
-    color: #707070;
-    cursor: default;
+.menaicon{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #202020;
+    z-index: 99;
     text-align: center;
-    font-size: 20px;
-}
-
-.homeico{
-    opacity: 0;
-}
-.expico{
-    opacity: 0;
-}
-.proico{
-    opacity: 0;
-}
-.more{
-    opacity: 0;
-}
-.moreico{
-    opacity: 0;
 }
 .home{
     position: absolute;
-    top: 35px;
-    left: 756px;
-    width: 74px;
-    height: 33px;
+    top: 40px;
+    left: 57px;
+    width: 30px;
+    height: 14px;
     text-align: left;
-    transition: all 0.3s ease 0s;
-    font: normal normal normal 25px/33px Segoe UI;
+    font: normal normal normal 10px/14px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
-.home:hover{
+.home:active{
     color: #707070;
-    cursor: pointer;
+}
+.homeico{
+    position: absolute;
+    top: 10px;
+    left: 57px;
+    font: normal normal normal 30px/34px Segoe UI;
+    opacity: 1;
+    color: #FFFFFF;
+}
+.homeico:active{
+    color: #707070;
 }
 .experiences{
     position: absolute;
-    top: 35px;
-    left: 885px;
-    width: 150px;
-    height: 33px;
+    top: 40px;
+    left: 132px;
+    width: 61px;
+    height: 14px;
     text-align: left;
-    transition: all 0.3s ease 0s;
-    font: normal normal normal 25px/33px Segoe UI;
+    font: normal normal normal 10px/14px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
-.experiences:hover{
+.expico{
+    position: absolute;
+    top: 10px;
+    left: 147px;
+    font: normal normal normal 30px/34px Segoe UI;
+    opacity: 1;
+    color: #FFFFFF;
+}
+.expico:active{
     color: #707070;
-    cursor: pointer;
 }
 .projects{
     position: absolute;
-    top: 35px;
-    left: 1090px;
-    width: 116px;
-    height: 33px;
+    top: 40px;
+    left: 230px;
+    width: 45px;
+    height: 14px;
     text-align: left;
-    transition: all 0.3s ease 0s;
-    font: normal normal normal 25px/33px Segoe UI;
+    font: normal normal normal 10px/14px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
-.projects:hover{
+.proico{
+    position: absolute;
+    top: 10px;
+    left: 237px;
+    font: normal normal normal 30px/34px Segoe UI;
+    opacity: 1;
+    color: #FFFFFF;
+}
+.proico:active{
     color: #707070;
-    cursor: pointer;
 }
-.language{
+.more{
     position: absolute;
-    top: 35px;
-    left: 1600px;
-    width: 127px;
-    height: 33px;
+    top: 40px;
+    left: 328px;
+    width: 28px;
+    height: 14px;
     text-align: left;
-    font: normal normal normal 25px/33px Segoe UI;
+    font: normal normal normal 10px/14px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    cursor: default;
 }
-.en{
+.moreico{
     position: absolute;
-    top: 35px;
-    left: 1740px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
+    top: 10px;
+    left: 327px;
+    font: normal normal normal 30px/34px Segoe UI;
+    opacity: 1;
     color: #FFFFFF;
-    font-family: 'Segoe UI';
-    background: #0dd879;
-    transition: all 0.3s ease 0s;
 }
-.ar{
-    position: absolute;
-    top: 35px;
-    left: 1790px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    color: #FFFFFF;
-    font-family: 'Segoe UI';
-    background: #279864;
-    transition: all 0.3s ease 0s;
-}
-.ar:hover{
-    background: #0dd879;
-}
-.ar:active{
-    transform: translateY(7px);
+.moreico:active{
+    color: #707070;
 }
 /*header*/
+
 .char{
     position: absolute;
-    top: 100px;
-    left: 950px;
+    top: 379px;
+    left: 12px;
+    width: 391px;
+    height: 337px;
 }
 .imt{
     position: absolute;
-    top: 313px;
-    left: 147px;
+    top: 92px;
+    left: 67px;
     width: 448px;
     height: 106px;
     text-align: left;
-    font: normal normal normal 80px/106px Segoe UI;
+    font: normal normal normal 50px/67px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 .im{
     position: absolute;
-    top: 449px;
-    left: 218px;
+    top: 152px;
+    left: 88px;
     width: 122px;
     height: 73px;
     text-align: left;
-    font: normal normal normal 55px/73px Segoe UI;
+    font: normal normal normal 35px/47px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 .dev{
     position: absolute;
-    top: 449px;
-    left: 345px;
+    top: 152px;
+    left: 167px;
     width: 250px;
     height: 73px;
     text-align: left;
-    font: normal normal normal 55px/73px Segoe UI;
+    font: normal normal normal 35px/47px Segoe UI;
     letter-spacing: 0px;
     color: #279864;
     opacity: 1;
 }
 .twr{
     position: absolute;
-    top: 995px;
-    left: 895px;
+    top: 759px;
+    left: 142px;
     width: 50px;
     height: 50px;
     opacity: 1;
     transition: all 0.3s ease 0s;
     z-index: 10;
-}
-.twr:hover{
-    opacity: 0.7;
-}
-.twr:active{
-    transform: translateY(5px);
 }
 .gith{
     position: absolute;
-    top: 995px;
-    left: 975px;
+    top: 759px;
+    left: 222px;
     width: 50px;
     height: 50px;
     opacity: 1;
     transition: all 0.3s ease 0s;
     z-index: 10;
 }
-.gith:hover{
-    opacity: 0.7;
-}
-.gith:active{
-    transform: translateY(5px);
-}
-.sbar{
-    position: absolute;
-    top: 980px;
-    left: 0px;
-    width: 1920px;
-    height: 77px;
-    background: #202020 0% 0% no-repeat padding-box;
-    opacity: 0;
-}
 .warn1{
     position: absolute;
-    top: 619px;
-    left: 147px;
-    font-size: 40px;
+    top: 226px;
+    left: 36px;
+    font-size: 25px;
     color: #279864;
     opacity: 1;
 }
 .warn2{
     position: absolute;
-    top: 721px;
-    left: 147px;
-    font-size: 40px;
+    top: 303px;
+    left: 36px;
+    font-size: 25px;
     color: #279864;
     opacity: 1;
 }
 .warn1txt{
     position: absolute;
-    top: 619px;
-    left: 202px;
+    top: 224px;
+    left: 71px;
+    width: 307px;
+    height: 54px;
     text-align: left;
-    font: normal normal normal 30px/40px Segoe UI;
+    font: normal normal normal 20px/27px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 .warn2txt{
     position: absolute;
-    top: 721px;
-    left: 203px;
+    top: 301px;
+    left: 71px;
+    width: 247px;
+    height: 54px;
     text-align: left;
-    font: normal normal normal 30px/40px Segoe UI;
+    font: normal normal normal 20px/27px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -296,48 +271,50 @@ body{
     fill: rgba(39,152,100,0.129);
 }
 .grey_1 {
+    display: block;
     overflow: visible;
-    position: absolute;
-    width: 1403.498px;
-    height: 4502.203px;
-    left: -610.895px;
-    top: -167.19px;
-    transform: matrix(1,0,0,1,0,0);
+	position: absolute;
+	width: 460.794px;
+	height: 3621.708px;
+	left: -218.104px;
+	top: -124.624px;
+	transform: matrix(1,0,0,1,0,0);
 }
 #green_2 {
     fill: rgba(28,28,28,0.878);
 }
 .green_2 {
+    display: block;
     overflow: visible;
-    position: absolute;
-    width: 2430.276px;
-    height: 4473.29px;
-    left: 596.105px;
-    top: -166.834px;
-    transform: matrix(1,0,0,1,0,0);
+	position: absolute;
+	width: 338.39px;
+	height: 3605px;
+	left: 85px;
+	top: -124.624px;
+	transform: matrix(1,0,0,1,0,0);
 }
 /*about me*/
 
 .about{
     position: absolute;
-    top: 1340px;
-    left: 725px;
-    width: 471px;
-    height: 133px;
+    top: 956px;
+    left: 94px;
+    width: 226px;
+    height: 40px;
     text-align: center;
-    font: normal normal 600 100px/133px Segoe UI;
+    font: normal normal 600 30px/40px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 .mycv{
     position: absolute;
-    top: 1650px;
-    left: 119px;
-    width: 1682px;
-    height: 320px;
+    top: 1026px;
+    left: 37px;
+    width: 340px;
+    height: 405px;
     text-align: center;
-    font: normal normal 600 30px/40px Segoe UI;
+    font: normal normal 600 20px/27px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -346,12 +323,12 @@ body{
 
 .exp{
     position: absolute;
-    top: 2291px;
-    left: 688px;
-    width: 544px;
-    height: 133px;
+    top: 1511px;
+    left: 126px;
+    width: 162px;
+    height: 40px;
     text-align: center;
-    font: normal normal 600 100px/133px Segoe UI;
+    font: normal normal 600 30px/40px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
@@ -359,8 +336,8 @@ body{
 }
 .btnreveal{
     position: absolute;
-    top: 2469px;
-    left: 855px;
+    top: 1591px;
+    left: 135px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -370,16 +347,10 @@ body{
     border: 1px solid transparent;
     color: #FFFFFF;
     background-color: #279864;
-    font-size: 35px;
+    font-size: 20px;
     letter-spacing: 1px;
     transition: all 0.15s linear;
     z-index: 1;
-}
-.btnreveal:hover {
-    background-color: rgba(29, 201, 160, 0.08);
-    border-color: #279864;
-    color: #279864;
-    transform: translateY(-5px) scale(1.05);
 }
    
 .btnreveal:active {
@@ -396,59 +367,61 @@ body{
 }
 .prolang{
     position: absolute;
-    top: 2574px;
-    left: 352px;
-    width: 1217px;
-    height: 133px;
+    top: 1673px;
+    left: 16px;
+    width: 348px;
+    height: 40px;
     text-align: center;
-    font: normal normal 600 100px/133px Segoe UI;
+    font: normal normal 600 30px/40px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 .prolangicon{
     position: relative;
-    top: 2607px;
-    left: 1569px;
-    font-size: 60px;
+    top: 1680px;
+    left: 369px;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 .fw{
     position: absolute;
-    top: 3057px;
-    left: 673px;
-    width: 574px;
-    height: 133px;
+    top: 2243px;
+    left: 107px;
+    width: 165px;
+    height: 40px;
     text-align: center;
-    font: normal normal 600 100px/133px Segoe UI;
+    font: normal normal 600 30px/40px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 .fwicon{
     position: absolute;
-    top: 3083px;
-    left: 1264px;
-    font-size: 60px;
+    top: 2244px;
+    left: 277px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 .ds{
     position: absolute;
-    top: 3540px;
-    left: 574px;
-    width: 773px;
-    height: 133px;
+    top: 2798px;
+    left: 77px;
+    width: 226px;
+    height: 40px;
     text-align: center;
-    font: normal normal 600 100px/133px Segoe UI;
+    font: normal normal 600 30px/40px Segoe UI;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 .dsicon{
     position: absolute;
-    top: 3573px;
-    left: 1357px;
-    font-size: 60px;
+    top: 2800px;
+    left: 308px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 /*Blocks*/
@@ -456,28 +429,29 @@ body{
 
 .htmlRowExp {
     position: absolute;
-    top: 2737px;
-    left: 468px;
-    width: 282px;
-    height: 327px;
+    top: 1753px;
+    left: 32px;
+    width: 150px;
+    height: 200px;
     background: #242424;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: all 0.3s ease 0s;
     opacity: 1;
 }
 .htmlLogo{
     position: absolute;
-    top: 15px;
-    width:250px;
-    left: 15px;
+    top: 10px;
+    width: 150px;
+    left: 0px;
 }
 .html-bar{
     margin-right: 10px;
     margin-left: 10px;
-    height: 20px;
+    height: 10px;
     background-color: #191919; 
     position: relative; 
-    top: 270px; 
+    font-size: 15px;
+    top: 165px; 
     border-radius: 20px;
 }
 .htmltxt{
@@ -485,46 +459,46 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 40px;
-    top: 270px;
-    font: normal normal 300 30px/40px Segoe UI;
+    top: 160px;
+    font: normal normal 300 20px/30px Segoe UI;
 }
 .myBarHTML{
     position: absolute;
     width: 10%;
-    border-radius: 20px ; 
+    height: 10px;
+    border-radius: 20px ;
     background-color: #279864;
+    line-height: 10px;
+    font-size: 8px;
     color: #fff;
     font-family: 'Segoe UI';
-}
-.htmlRowExp:hover{
-    border: #fff solid 2px;
-    background: #aaaaaa38;
 }
 
 .cssRowExp {
     position: absolute;
-    top: 2737px;
-    left: 819px;
-    width: 282px;
-    height: 327px;
+    top: 1753px;
+    left: 232px;
+    width: 150px;
+    height: 200px;
     background: #242424;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: all 0.3s ease 0s;
     opacity: 1;
 }
 .cssLogo{
     position: absolute;
-    top: 15px;
-    width:178px;
-    left: 50px;
+    top: 10px;
+    width: 106px;
+    left: 22px;
 }
 .css-bar{
     margin-right: 10px;
     margin-left: 10px;
-    height: 20px;
+    height: 10px;
     background-color: #191919; 
     position: relative; 
-    top: 270px; 
+    font-size: 15px;
+    top: 165px; 
     border-radius: 20px;
 }
 .csstxt{
@@ -532,47 +506,47 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 40px;
-    top: 270px;
-    font: normal normal 300 30px/40px Segoe UI;
+    top: 160px;
+    font: normal normal 300 20px/30px Segoe UI;
 }
 .myBarCSS{
     position: absolute;
     width: 10%;
-    border-radius: 20px ; 
+    height: 10px;
+    border-radius: 20px ;
     background-color: #279864;
+    line-height: 10px;
+    font-size: 8px;
     color: #fff;
     font-family: 'Segoe UI';
-}
-.cssRowExp:hover{
-    border: #fff solid 2px;
-    background: #aaaaaa38;
 }
 
 
 .jsRowExp {
     position: absolute;
-    top: 2737px;
-    left: 1170px;
-    width: 282px;
-    height: 327px;
+    top: 1993px;
+    left: 32px;
+    width: 150px;
+    height: 200px;
     background: #242424;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: all 0.3s ease 0s;
     opacity: 1;
 }
 .jsLogo{
     position: absolute;
-    top: 15px;
-    width:230px;
-    left: 27px;
+    top: 10px;
+    width: 130px;
+    left: 10px;
 }
 .js-bar{
     margin-right: 10px;
     margin-left: 10px;
-    height: 20px;
+    height: 10px;
     background-color: #191919; 
     position: relative; 
-    top: 270px; 
+    font-size: 15px;
+    top: 165px; 
     border-radius: 20px;
 }
 .jstxt{
@@ -580,47 +554,47 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 40px;
-    top: 270px;
-    font: normal normal 300 30px/40px Segoe UI;
+    top: 160px;
+    font: normal normal 300 20px/30px Segoe UI;
 }
 .myBarJS{
     position: absolute;
     width: 10%;
-    border-radius: 20px ; 
+    height: 10px;
+    border-radius: 20px ;
     background-color: #279864;
+    line-height: 10px;
+    font-size: 8px;
     color: #fff;
     font-family: 'Segoe UI';
-}
-.jsRowExp:hover{
-    border: #fff solid 2px;
-    background: #aaaaaa38;
 }
 /*Frameworks*/
 
 .btRowExp {
     position: absolute;
-    top: 3220px;
-    left: 644px;
-    width: 282px;
-    height: 327px;
+    top: 2318px;
+    left: 32px;
+    width: 150px;
+    height: 200px;
     background: #242424;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: all 0.3s ease 0s;
     opacity: 1;
 }
 .btLogo{
     position: absolute;
-    top: 15px;
-    width:230px;
-    left: 27px;
+    top: 10px;
+    width: 130px;
+    left: 10px;
 }
 .bt-bar{
     margin-right: 10px;
     margin-left: 10px;
-    height: 20px;
+    height: 10px;
     background-color: #191919; 
     position: relative; 
-    top: 270px; 
+    font-size: 15px;
+    top: 165px; 
     border-radius: 20px;
 }
 .bttxt{
@@ -628,46 +602,46 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 40px;
-    top: 270px;
-    font: normal normal 300 30px/40px Segoe UI;
+    top: 160px;
+    font: normal normal 300 20px/30px Segoe UI;
 }
 .myBarBT{
     position: absolute;
     width: 10%;
-    border-radius: 20px ; 
+    height: 10px;
+    border-radius: 20px ;
     background-color: #279864;
+    line-height: 10px;
+    font-size: 8px;
     color: #fff;
     font-family: 'Segoe UI';
-}
-.btRowExp:hover{
-    border: #fff solid 2px;
-    background: #aaaaaa38;
 }
 
 .w3RowExp {
     position: absolute;
-    top: 3220px;
-    left: 995px;
-    width: 282px;
-    height: 327px;
+    top: 2318px;
+    left: 232px;
+    width: 150px;
+    height: 200px;
     background: #242424;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: all 0.3s ease 0s;
     opacity: 1;
 }
 .w3Logo{
     position: absolute;
-    top: 15px;
-    width:230px;
-    left: 27px;
+    top: 10px;
+    width: 130px;
+    left: 10px;
 }
 .ww-bar{
     margin-right: 10px;
     margin-left: 10px;
-    height: 20px;
+    height: 10px;
     background-color: #191919; 
     position: relative; 
-    top: 270px; 
+    font-size: 15px;
+    top: 165px; 
     border-radius: 20px;
 }
 .w3txt{
@@ -675,47 +649,47 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 40px;
-    top: 270px;
-    font: normal normal 300 30px/40px Segoe UI;
+    top: 160px;
+    font: normal normal 300 20px/30px Segoe UI;
 }
 .myBarW3{
     position: absolute;
     width: 10%;
-    border-radius: 20px ; 
+    height: 10px;
+    border-radius: 20px ;
     background-color: #279864;
+    line-height: 10px;
+    font-size: 8px;
     color: #fff;
     font-family: 'Segoe UI';
-}
-.w3RowExp:hover{
-    border: #fff solid 2px;
-    background: #aaaaaa38;
 }
 /*Design Software*/
 
 .psRowExp {
     position: absolute;
-    top: 3703px;
-    left: 633px;
-    width: 282px;
-    height: 327px;
+    top: 2873px;
+    left: 32px;
+    width: 150px;
+    height: 200px;
     background: #242424;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: all 0.3s ease 0s;
     opacity: 1;
 }
 .psLogo{
     position: absolute;
-    top: 15px;
-    width:230px;
-    left: 27px;
+    top: 10px;
+    width: 130px;
+    left: 10px;
 }
 .ps-bar{
     margin-right: 10px;
     margin-left: 10px;
-    height: 20px;
+    height: 10px;
     background-color: #191919; 
     position: relative; 
-    top: 270px; 
+    font-size: 15px;
+    top: 165px; 
     border-radius: 20px;
 }
 .pstxt{
@@ -723,46 +697,46 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 40px;
-    top: 270px;
-    font: normal normal 300 30px/40px Segoe UI;
+    top: 160px;
+    font: normal normal 300 20px/30px Segoe UI;
 }
 .myBarPS{
     position: absolute;
     width: 10%;
-    border-radius: 20px ; 
+    height: 10px;
+    border-radius: 20px ;
     background-color: #279864;
+    line-height: 10px;
+    font-size: 8px;
     color: #fff;
     font-family: 'Segoe UI';
-}
-.psRowExp:hover{
-    border: #fff solid 2px;
-    background: #aaaaaa38;
 }
 
 .xdRowExp {
     position: absolute;
-    top: 3703px;
-    left: 984px;
-    width: 282px;
-    height: 327px;
+    top: 2873px;
+    left: 232px;
+    width: 150px;
+    height: 200px;
     background: #242424;
-    border-radius: 20px;
+    border-radius: 5px;
     transition: all 0.3s ease 0s;
     opacity: 1;
 }
 .xdLogo{
     position: absolute;
-    top: 15px;
-    width:230px;
-    left: 27px;
+    top: 10px;
+    width: 130px;
+    left: 10px;
 }
 .xd-bar{
     margin-right: 10px;
     margin-left: 10px;
-    height: 20px;
+    height: 10px;
     background-color: #191919; 
     position: relative; 
-    top: 270px; 
+    font-size: 15px;
+    top: 165px; 
     border-radius: 20px;
 }
 .xdtxt{
@@ -770,88 +744,64 @@ body{
     color: white;
     text-align: center;
     margin-bottom: 40px;
-    top: 270px;
-    font: normal normal 300 30px/40px Segoe UI;
+    top: 160px;
+    font: normal normal 300 20px/30px Segoe UI;
 }
 .myBarXD{
     position: absolute;
     width: 10%;
-    border-radius: 20px ; 
+    height: 10px;
+    border-radius: 20px ;
     background-color: #279864;
+    line-height: 10px;
+    font-size: 8px;
     color: #fff;
     font-family: 'Segoe UI';
-}
-.xdRowExp:hover{
-    border: #fff solid 2px;
-    background: #aaaaaa38;
 }
 
 
 .upc{
     display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    outline: none;
-    font-size: 30px;
-    text-align: center;
-    background-color: #279864;
-    transition: all 0.3s ease 0s;
 }
-.upc:hover{
-    transform: translateY(-7px);
-    background-color: #0dd879;
-}
-.upc:active{
-    transform: translateY(7px);
-    background-color: #346850;
-}
+
 .footer{
     position: absolute;
-    top: 4215px;
+    top: 3392px;
     left: 0px;
-    width: 1920px;
-    height: 120px;
+    width: 414px;
+    height: 70px;
     background: #141414 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 .copy{
     position: relative;
-    font: normal normal bold 20px/27px Segoe UI;
+    font: normal normal bold 10px/17px Segoe UI;
     color: #FFFFFF;
-    top: 50px;
+    top: 25px;
     transition: all 0.3s ease 0s;
 }
 .copyurl{
     text-decoration: none;
     position: relative;
-    font: normal normal bold 20px/27px Segoe UI;
+    font: normal normal bold 10px/17px Segoe UI;
     color: #00C578;
-    top: 22px;
-    left: 220px;
+    top: 3px;
+    left: 110px;
     transition: all 0.3s ease 0s;
-}
-.copyurl:hover{
-    color: #0dd879;
 }
 .thamer-foot{
     position: absolute;
-    top: 50px;
-    left: 60px;
+    top: 25px;
+    left: 10px;
     width: 173px;
     height: 33px;
     text-align: left;
     transition: all 0.3s ease 0s;
-    font: normal normal normal 25px/33px Segoe UI;
+    font: normal normal normal 10px Segoe UI;
     letter-spacing: 12.5px;
     color: #FFFFFF;
     opacity: 1;
     cursor: default;
 }
 
-
+}
