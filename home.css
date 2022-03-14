@@ -201,8 +201,8 @@ body{
 }
 .twr{
     position: absolute;
-    top: 870px;
-    left: 895px;
+    top: 540px;
+    left: 218px;
     width: 50px;
     height: 50px;
     opacity: 1;
@@ -217,8 +217,8 @@ body{
 }
 .gith{
     position: absolute;
-    top: 870px;
-    left: 975px;
+    top: 540px;
+    left: 300px;
     width: 50px;
     height: 50px;
     opacity: 1;
